@@ -1,8 +1,8 @@
-// Obtenemos los elementos h1 y p
+
 var Encabezado = document.getElementById('contenido');
 var Parrafo = document.getElementById('contenido2');
 
-// Arrays con los nuevos contenidos para h1 y p
+
 var CambioDeContenido = [
     "Protección de datos",
     "Prevención de brechas de seguridad",
@@ -27,7 +27,6 @@ var CambioDeContenidoP = [
     "La seguridad informática adecuada es crucial para preservar la reputación de una organización. Un incidente de seguridad puede tener repercusiones negativas significativas, como la pérdida de confianza de los clientes, daño a la imagen de la marca y pérdida de oportunidades comerciales. Los niveles de seguridad ayudan a evitar estos riesgos y mantener una reputación sólida,La seguridad informática desempeña un papel crucial en la protección de la reputación de una organización. Una brecha de seguridad o una pérdida de datos pueden tener un impacto negativo significativo en la imagen y la confianza de los clientes. Al implementar medidas sólidas de seguridad, una organización puede salvaguardar su reputación y la confianza de sus clientes, demostrando un compromiso con la protección de la información y la privacidad.",
 ];
 
-// Cambiamos el contenido de h1 y p con animación, desvanecimiento y movimiento
 function cambiarContenidoConAnimacion() {
     var index = 0;
     var totalCambios2 = CambioDeContenido.length;
@@ -58,7 +57,7 @@ function cambiarContenidoConAnimacion() {
     cambiarContenido();
 }
 
-// Reiniciar la animación
+
 function reiniciarAnimacion() {
     setTimeout(function () {
         Encabezado.style.opacity = '1';
@@ -69,7 +68,6 @@ function reiniciarAnimacion() {
     }, 5000);
 }
 
-// Llamamos a la función para iniciar la animación
 cambiarContenidoConAnimacion();
 
 
@@ -104,11 +102,11 @@ cambiarContenidoConAnimacion();
 
 
 
-// Obtenemos los elementos h1 y p
+
 var Encabezado2 = document.getElementById('contenido3');
 var Parrafo2 = document.getElementById('contenido4');
 
-// Arrays con los nuevos contenidos para h1 y p
+
 var CambioDeContenido2 = [
     "Protección de datos",
     "Prevención de brechas de seguridad",
@@ -133,7 +131,7 @@ var CambioDeContenidoP2 = [
     "7",
 ];
 
-// Cambiamos el contenido de h1 y p con animación, desvanecimiento y movimiento
+
 function cambiarContenidoConAnimacion2() {
     var index2 = 0;
     var totalCambios2 = CambioDeContenido2.length;
@@ -164,7 +162,7 @@ function cambiarContenidoConAnimacion2() {
     cambiarContenido2();
 }
 
-// Reiniciar la animación
+
 function reiniciarAnimacion() {
     setTimeout(function () {
         Encabezado2.style.opacity = '1';
@@ -175,6 +173,6 @@ function reiniciarAnimacion() {
     }, 5000);
 }
 
-// Llamamos a la función para iniciar la animación
+
 cambiarContenidoConAnimacion2();
 
