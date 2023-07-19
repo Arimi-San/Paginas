@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Carrusel {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.Carrusel img {
+
+    height: 100vh;
+    width: 100%;
+    filter: blur(2px) brightness(50%);
+    transition: opacity 3s ease-in-out;
+    position: absolute;
+
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+
+#Carru img.active {
+    opacity: 1;
+}
+
+.Container {
+    width: 1250px;
+    height: 489px;
+    z-index: 1;
+    top: 12%;
+    right: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tarjetas {
+    width: 297px;
+    border-radius: 32px;
+    height: 489px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.46);
+}
+
+.Tarjetas:hover {
+    cursor: pointer;
+    rotate: 30px;
+    transform: translateY(-20px);
+    transition: transform 0.5s ease;
+    transition: 0.5s ease-in-out;
+}
+
+.Tarjetas:not(:hover) {
+    transform: translateY(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+.Tarjetas h1 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.Tema {
+    position: relative;
+    text-decoration: none;
+}
+
+.Tema::before,
+.Tema::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 2px;
+    bottom: -2px;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
+}
+
+.Tema::before {
+    right: 0%;
+}
+
+.Tema::after {
+    left: 00%;
+}
+
+.Tema:hover::before,
+.Tema:hover::after {
+    width: 50%;
+}
+
+.Titulo {
+    color: rgb(255, 255, 255);
+    padding-bottom: 800px;
+    position: absolute;
+    font-size: 34px;
+    font-family: 'Inter', sans-serif;
+}
+
+.Titulo2 {
+    color: rgb(255, 255, 255);
+    padding-top: 700px;
+    position: absolute;
+    font-size: 34px;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
