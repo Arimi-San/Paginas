@@ -6,8 +6,9 @@
   }
   
   body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     background-image: url('./Img/Fondo2.png');
+    background-repeat: no-repeat;
   }
   
   h1 {
@@ -23,7 +24,6 @@
     left: 80px;
     top: 110px;
     position: absolute;
-    animation-delay: 5s;
     animation: mover-izquierda 9s ease-in-out;
     display: grid;
 text-align: center;
@@ -95,7 +95,7 @@ text-align: center;
   .Redondo {
     width: 500px;
     height: 500px;
-    background-color: #00F0FF;
+    background-color: #000000;
     margin-left: 68%;
     margin-top: 20%;
     border-radius: 50%;
@@ -194,4 +194,22 @@ text-align: center;
 
 .Parrafo2{
     color: rgb(255, 255, 255);
+}
+.Titulo2{
+  position: absolute;
+  top: 32px;
+  width: 100%;
+}
+.Parrafo2
+{
+ margin-top: 30%;
+}
+
+#contenido{
+
+  margin-top: 30%;
+}
+.Tema{
+  width: 30%;
+  text-align: center;
 }
