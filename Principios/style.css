@@ -154,3 +154,28 @@ h1 {
 .Volver:hover::after {
   width: 50%;
 }
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+  .Codigo{
+    display: none;
+  }
+  .Redondo{
+    position: absolute;
+    margin-left: 834px;
+    margin-bottom: 23px;
+  }
+  .Clave{
+    width: 400px;
+  
+    text-align: center;
+    margin-left: 873px;
+    position: absolute;
+
+  }
+  .Container{
+    height: 700px;
+    margin-top: -55px;
+    position: absolute;
+  }
+ 
+}

@@ -334,3 +334,26 @@ justify-items: center;
   opacity: 0.4;
 
 }
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+  .Redondo ,.Codigo{
+display: none;
+  }
+  .Clave{
+    display: none;
+  }
+  .Seccion1{
+    
+    margin-bottom: 240px;
+    position: absolute;
+  }
+  .Seccion2{
+    height: 533px;
+  width: 423px;
+    margin-bottom: 420px;
+    position: absolute;
+  }
+  .Tema{
+ 
+    width: 50%;
+  }
+}

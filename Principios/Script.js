@@ -1,8 +1,8 @@
-// Obtenemos los elementos h1 y p
+
 var heading = document.getElementById('contenido');
 var paragraph = document.getElementById('contenido2');
 
-// Arrays con los nuevos contenidos para h1 y p
+
 var nuevosContenidosH1 = [
     "¿Cómo incrementar la seguridad informática?",
     "Actualiza y parchea tus sistemas",
@@ -14,7 +14,7 @@ var nuevosContenidosH1 = [
 
 
 
-    // Añade aquí los otros 7 nuevos textos para h1
+
 ];
 
 var nuevosContenidosP = [
@@ -28,7 +28,6 @@ var nuevosContenidosP = [
     
 ];
 
-// Cambiamos el contenido de h1 y p con animación, desvanecimiento y movimiento
 function cambiarContenidoConAnimacion() {
     var index = 0;
     var totalCambios = nuevosContenidosH1.length;
@@ -59,7 +58,7 @@ function cambiarContenidoConAnimacion() {
     cambiarContenido();
 }
 
-// Reiniciar la animación
+
 function reiniciarAnimacion() {
     setTimeout(function () {
         heading.style.opacity = '1';
@@ -70,5 +69,4 @@ function reiniciarAnimacion() {
     }, 5000);
 }
 
-// Llamamos a la función para iniciar la animación
 cambiarContenidoConAnimacion();

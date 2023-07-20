@@ -213,3 +213,39 @@ text-align: center;
   width: 30%;
   text-align: center;
 }
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+
+  .Tema{
+    color: red;
+  }
+  .Container{
+    width: 380px;
+    height: 663px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -40px;
+  }
+ 
+
+.Container2{
+  position: absolute;
+  margin-top: -100px;
+  width: 580px;
+  height: 263px;
+}
+.Container2 p{
+
+margin-top: 120px;
+position: absolute;
+}
+.Container p{
+
+  }
+  .Redondo , .Clave{
+    display: none;
+  }
+.Codigo{
+  display: none;
+}
+  }

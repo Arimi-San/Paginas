@@ -45,10 +45,10 @@ function cambiarContenidoConAnimacion() {
                 if (index === totalCambios) {
                     reiniciarAnimacion();
                 } else {
-                    setTimeout(cambiarContenido, 1000);
+                    setTimeout(cambiarContenido, 6000);
                 }
-            }, 1000);
-        }, 1000);
+            }, 2000);
+        }, 6000);
     }
 
     cambiarContenido();
@@ -122,10 +122,10 @@ function cambiarContenidoConAnimacion2() {
                 if (index2 === totalCambios2) {
                     reiniciarAnimacion2();
                 } else {
-                    setTimeout(cambiarContenido2, 1000);
+                    setTimeout(cambiarContenido2, 6000);
                 }
             },);
-        }, 1000);
+        }, 6000);
     }
 
     cambiarContenido2();
